@@ -1,0 +1,17 @@
+class Marker {
+public static void main(String[] args)
+{
+ string Color = "Blue";
+ char size = 'M';
+ int price = 120;
+ string Company = "Camlin";
+ int Thickness = 22cm ;
+
+System.out.println(Color,size,price,Company,Thickness);
+
+
+}
+
+
+
+}

@@ -1,0 +1,63 @@
+JAVA 
+
+we can compile the program file without adding the main method , but we can't execute it 
+and if making changes in the file again compile it 
+
+there are two types or orientation in java 
+block and line 
+
+1.Printing statement
+for printing anything or output in java 
+3 values 
+--print
+syntax- System.out.print("");
+--println
+syntax- System.out.println("");
+
+-both are line oriented so close with semi colon 
+-difference - println will also create a new line after printing but print doesn't.
+-System S should be capital.
+
+--printf - but not used 
+
+some data can be printed without quotes they are number(+ - whole decimal) and Boolean
+-if print statement is empty compilation error but println will make a new line
+
+
+Characters can be printed inside single as well as double quotes but there should only be one character only.
+
+Inside Double quotes will can print anything 
+
+Variables 
+-container to store the value(primitive and non-primitive) 
+-for making variables in java will go with the conponent of datatype (primitive and non-primitive)
+
+Typecasting in java is of two types 
+1-primitive 
+-implicit or widening
+-explicit or narrowing
+
+2-non primitive 
+-upcasting
+-downcasting
+
+Convention for classname - first alphabhet capital for each word in a class name 
+Convention for variable= if single word then all letters in small 
+if multiple words should be in small letters and separated by underscore
+
+scope defined variables 
+
+byte+byte=int****
+short+short=int****
+
+--return type of relational operator is Boolean (they are used for conditions)
+
+
+--Number is less than 20 
+--number is in between 20 and 50
+--check the character is uppercase character 
+--check the character is lowercase or not 
+--check the character is vowel 
+--check the character is lowercase vowel
+--check the character is uppercase vowel
+--check the character is consonant of not.
