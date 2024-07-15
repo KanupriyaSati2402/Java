@@ -1,0 +1,145 @@
+JAVA 
+
+we can compile the program file without adding the main method , but we can't execute it 
+and if making changes in the file again compile it 
+
+There are two types or orientation in java 
+block and line 
+
+--------------------------------------------------------------------------------------------------------------
+
+1.Printing statement
+for printing anything or output in java 
+3 values 
+--print
+syntax- System.out.print("");
+--println
+syntax- System.out.println("");
+
+-both are line oriented so close with semi colon 
+-difference - println will also create a new line after printing but print doesn't.
+-System S should be capital.
+
+--printf - but not used 
+
+some data can be printed without quotes they are number(+ - whole decimal) and Boolean
+-if print statement is empty compilation error but println will make a new line
+
+--------------------------------------------------------------------------------------------------------------
+
+Characters can be printed inside single as well as double quotes but there should only be one character only.
+
+Inside Double quotes will can print anything 
+
+--------------------------------------------------------------------------------------------------------------
+
+Variables 
+-container to store the value(primitive and non-primitive) 
+-for making variables in java will go with the conponent of datatype (primitive and non-primitive)
+
+--------------------------------------------------------------------------------------------------------------
+
+Typecasting in java is of two types 
+1-primitive 
+-implicit or widening
+-explicit or narrowing
+
+2-non primitive 
+-upcasting
+-downcasting
+--------------------------------------------------------------------------------------------------------------
+
+Convention for classname - first alphabhet capital for each word in a class name 
+Convention for variable= if single word then all letters in small 
+if multiple words should be in small letters and separated by underscore
+
+scope defined variables 
+--------------------------------------------------------------------------------------------------------------
+
+Operators
+Assignment operator simple and compound (for optimization)
+
+in conditional operator the datatype of operand1 and operand2 should be same as per rule
+
+--wajp check the number is positive or not 
+--wajp check the number is negative or not
+--wajp check the number is zero or not 
+--wajp check the number is less than 10 or not 
+--wajp check the number is greater than 5 or equal to 5 or not 
+--wajp the number is divisible by 3 or not 
+--wajp the number is divisible by 6 or not without directly divisible by using 6 
+--wajp check the character is in upper case or not 
+--wajp check the character is upper vowel or not 
+--wajp check the character is vowel or not 
+--wajp check the character is special character or not 
+--wajp check the character is digit or not 
+--wajp check the character is between D to X 
+
+\-- wajp find the largest among 3 no. using conditional , logical 
+\-- wajp find even and odd without using %
+
+--------------------------------------------------------------------------------------------------------------
+
+Control statement 
+-Decision --if ,if else ,if else if 
+-Looping -- while ,do-while,for
+
+--------------------------------------------------------------------------------------------------------------
+questions on 
+
+IF
+--wajp check the character is uppercase
+--wajp check the character is z (small)
+--wajp check the number is in between 50 and 70 
+--wajp check the number is 3
+--check the no. is negative
+--check the no is not zero
+--check the number is divisible by 7 
+--check the character is special character
+
+IF-ELSE
+--check the character is in upper or lower case print the same
+--if the char is in uppercase print in lowercase and vice versa
+--if the number is even print hi and odd then hello
+--check the number is positive or negative 
+--check the no. is divisible by 5 or not
+--check the char is between p to x or not
+
+IF-ELSEIF  (done)
+
+--wajp to read day number from the user and print the equivalent day name.
+--wajp to read the months from user input and print the name .
+--wajp read month number from the user and how many days are there in the month
+--wajp to read char from the user and print the entered character is vowel or consonant etc are invalid.
+
+--------------------------------------------------------------------------------------------------------------
+Switch 
+
+--can't pass Boolean values 
+-- when we don't have to used equivalent operator then we use it 
+--performance is high 
+--grouping 
+syntax 
+switch (value/variable/exp)
+{
+case value/exp:
+{
+statement;
+}
+}
+--------------------------------------------------------------------------
+Taking input 
+
+
+there are different methods that are non-static for taking input from user 
+like nextInt() nextChar() etc
+
+new scanner (system.in) -- address will be generated by this (object ref)
+scanner p = where the address will be stored (variable)
+
+now 
+int a =p.nextInt();
+
+befor writing class import the package for accessing the methods inside the util folder that is scanner which have the objects
+
+import java.util.scanner
