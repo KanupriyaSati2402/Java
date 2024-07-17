@@ -143,3 +143,6 @@ int a =p.nextInt();
 befor writing class import the package for accessing the methods inside the util folder that is scanner which have the objects
 
 import java.util.scanner
+
+
+--------------------------------------------------------------------------

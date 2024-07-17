@@ -1,0 +1,24 @@
+                                       Part 2
+
+
+OOPS 
+--Object
+ which have state(info) -- variable
+ and behaviour (task) -- method
+
+--------------------------------------------------------------------------
+Method 
+
+-- when we access method that is called that we are calling the method.
+-- without void we cannot make a method .
+-- without name the method cannot be created .
+-- block is also mandatory in declaring a method
+
+--------------------------------------------------------------------------
+Method Declaration (public till args))
+--combination of method declaration and implementation
+
+--------------------------------------------------------------------------
+ACCESS MODIFIER
+
+--characteristic and behave change
