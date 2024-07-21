@@ -22,6 +22,12 @@ switch(c)
   {
    System.out.println("Consonants");
   }
+case 1:
+case 2:
+case 3:
+case 4:  System.out.println("Small");
+ break;
+//grouping all can give same answer 
 
 }
 }

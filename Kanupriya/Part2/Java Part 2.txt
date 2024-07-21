@@ -10,15 +10,74 @@ OOPS
 Method 
 
 -- when we access method that is called that we are calling the method.
--- without void we cannot make a method .
+-- without void we cannot make a method . (return type)
 -- without name the method cannot be created .
 -- block is also mandatory in declaring a method
 
 --------------------------------------------------------------------------
-Method Declaration (public till args))
+Method Defination (public till args))
 --combination of method declaration and implementation
 
 --------------------------------------------------------------------------
 ACCESS MODIFIER
 
 --characteristic and behave change
+
+modifier (static) we can call it without making the object 
+and for non static we have to call it by making the object 
+---------------------------------------------------------------------------
+Return type 
+-- [return [value/variable/expression];]
+the return statement is optional 
+return can not be given without value/exp/variable this type will return void 
+three types of return type 
+- void
+- primitive datatype for primitive 
+- np ke liye np datatype
+-
+
+control transfer statement - break 
+command line arguments given in main in cmd after compilation and they will get stored in args 
+
+-----------------------------------------------------------------------------------------------
+Method overriding
+no to be considered 
+-return type 
+-variable name of formal arguments 
+-----------------------------------------------------------------------------------------------
+
+Packages should have a class file 
+--they are collection of class file of similar classes and interfaces
+
+design in java 
+completely incomplete --interface
+partially incomplete/incompletely incomplete -- abstract class
+complete design -- concrete class
+-----------------------------------------------------------------------------------------------
+two types of variables ( two types of packages)
+-predefined -- java library (io , sql,swing etc)
+-userdefined -- we will make it 
+
+we will make it using package keyword , it is line oriented 
+
+package demo;
+package signup;
+examples of package
+
+convention of giving package name -- Revere of company domain name .projectname.module
+import statement should be between package and class 
+
+if we have public class then write same file and class name otherwise don't 
+
+in import fully qualified name - from where the keyword is coming in detail
+
+launch 
+project
+package 
+class/interface
+prog then save then execute
+
+ek package ke ander ek hi public class , main method ke liye tick krna padega or to delete a complete line ctrl+d
+--------------------------------------------------------------------------
+
+The properties that are common are static properties and the varying properties object to object are non static 
