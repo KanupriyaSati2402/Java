@@ -15,8 +15,6 @@ Method
 -- block is also mandatory in declaring a method
 
 --------------------------------------------------------------------------
-Method Defination (public till args))
---combination of method declaration and implementation
 
 --------------------------------------------------------------------------
 ACCESS MODIFIER
@@ -34,16 +32,6 @@ three types of return type
 - void
 - primitive datatype for primitive 
 - np ke liye np datatype
--
-
-control transfer statement - break 
-command line arguments given in main in cmd after compilation and they will get stored in args 
-
------------------------------------------------------------------------------------------------
-Method overriding
-no to be considered 
--return type 
--variable name of formal arguments 
 -----------------------------------------------------------------------------------------------
 
 Packages should have a class file 
